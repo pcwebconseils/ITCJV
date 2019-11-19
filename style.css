@@ -33,4 +33,20 @@ main{
   footer{
       position: fixed;
       bottom: 0px;
+      width: 100%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-container > div {
+    background-color: #fae0e0cc;
+    border: 1px solid black;
+    border-radius: 3em;
+    height: 3em;
+    text-align:center;
+    line-height:3em;
   }
