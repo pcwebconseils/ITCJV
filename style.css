@@ -51,3 +51,13 @@ main{
     line-height:3em;
     text-align:center;
   }
+  h3{
+    color: royalblue;
+  }
+h3.titre{
+  color: #c506accc;
+  font-size: 2em;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+}
